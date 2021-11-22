@@ -1,5 +1,28 @@
 # ML-and-ad-preparation
-RoadMap and preparation to Machine Learning Engineer,  Data Scientist, Computer Vision Specialist
 
-## Book
-[Chip Huyen - Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)
+This repository has the goal to create a learning and preparation roadMap for Machine Learning Engineers and Data Scientists.
+
+## Project Structure
+
+The repository is splittend into two macrofolders: [Machine Learning](Machine%20Learning/README.md) and [Data Science](Data_Science/README.md).
+Each section will have its own README file, containing a list of topic sorted from beginner to senior levels, with related e-learning resources or articles associated. 
+Also in the README.md file, you will be able to find a ```Suggested Books``` section, containing a list of books useful for theory preparation, practice or interview preparation.
+
+## Collaborate to the Project
+
+Any feedback or collaboration is more than welcome. 
+
+#### How to collaborate
+* Star the repository
+* Clone the repository
+* Add your changes
+* Create a Pull Request
+
+
+## Host
+Special thanks to [LeadTheFuture](leadthefuture.tech/) for welcoming and supportng this initiative.
+
+## Contributors 
+<a href="https://github.com/leadthefuture/ML-and-DataScience-preparation/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=leadthefuture/ML-and-DataScience-preparation" />
+</a>
