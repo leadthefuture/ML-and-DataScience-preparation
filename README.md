@@ -20,7 +20,7 @@ Any feedback or collaboration is more than welcome.
 
 
 ## Host
-Special thanks to [LeadTheFuture](leadthefuture.tech/) for welcoming and supportng this initiative.
+Special thanks to [LeadTheFuture](leadthefuture.tech/) for welcoming and supporting this initiative.
 
 ## Contributors 
 <a href="https://github.com/leadthefuture/ML-and-DataScience-preparation/graphs/contributors">
