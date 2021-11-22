@@ -18,7 +18,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 ### Free Learning Materials
 
 * [ML Enginner - Step by step guide for beginners](https://www.simplilearn.com/tutorials/machine-learning-tutoria)
-
+* [Kaggle Learning Couses: ML, Data Visualization, Computer Vision, NLP](https://www.kaggle.com/learn)
 <a name="interview"/>
 
 ### Common Interview Questions for ML Enginners
