@@ -41,3 +41,8 @@
 
 ### Blogs to follow
 * [Towards Data Science](https://towardsdatascience.com)
+
+
+## Suggested Books 
+[Chip Huyen - Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)
+[Crack Machine Learning Interview - English Version](https://www.amazon.it/Cracking-Machine-Learning-Interview-English-ebook/dp/B07K4Y6T3J/ref=sr_1_1?__mk_it_IT=)
