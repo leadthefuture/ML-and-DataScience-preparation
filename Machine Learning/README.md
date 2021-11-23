@@ -6,6 +6,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Table of contents
 * [Learning](#Learning)
+* [General Machine Learning](#generalML)
 * [Interview Questions](#interview)
 * [Blogs to follow](#blogs)
 * [Suggested books](#books)
@@ -13,12 +14,24 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Datasets](#datasets)
 
 ---
+
+
 <a name="Learning"/>
 
 ### Free Learning Materials
 
 * [ML Enginner - Step by step guide for beginners](https://www.simplilearn.com/tutorials/machine-learning-tutoria)
 * [Kaggle Learning Couses: ML, Data Visualization, Computer Vision, NLP](https://www.kaggle.com/learn)
+* [Stanford CS229: Machine Learning](https://cs229.stanford.edu/syllabus.html)
+
+<a name="generalML" />
+
+### General Machine Learning
+* [AI vs ML](https://towardsai.net/p/machine-learning/differences-between-ai-and-machine-learning-1255b182fc6)
+* [DL vs ML](https://www.zendesk.com/blog/machine-learning-and-deep-learning/)
+* [Data Mining vs ML](https://www.educba.com/data-mining-vs-machine-learning/)
+* [14 Different Types of Learning in Machine Learning](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
+
 <a name="interview"/>
 
 ### Common Interview Questions for ML Enginners
