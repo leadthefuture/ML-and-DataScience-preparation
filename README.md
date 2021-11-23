@@ -1,4 +1,4 @@
-# ML-and-ad-preparation
+# ML-and-DataScience-preparation
 
 This repository has the goal to create a learning and preparation roadMap for Machine Learning Engineers and Data Scientists.
 
