@@ -65,6 +65,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Kaggle](https://www.kaggle.com)
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 * [Data World](https://data.world/datasets/open-data)
+* [European Union Open Data Portal](https://data.europa.eu/data/datasets?locale=en)
 
 
 <a name="datasets"/>
