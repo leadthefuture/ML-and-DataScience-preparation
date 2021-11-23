@@ -31,6 +31,9 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Blogs to follow
 * [Towards Data Science](https://towardsdatascience.com)
+* [Machine Learning Mastery](https://machinelearningmastery.com)
+* [DeepMind](https://deepmind.com/blog)
+* [Eugene Yan](https://eugeneyan.com)
 
 
 <a name="books"/>
