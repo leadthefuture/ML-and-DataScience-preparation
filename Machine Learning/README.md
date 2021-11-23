@@ -17,7 +17,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Free Learning Materials
 
-* [ML Enginner - Step by step guide for beginners](https://www.simplilearn.com/tutorials/machine-learning-tutoria)
+* [ML Engineer - Step by step guide for beginners](https://www.simplilearn.com/tutorials/machine-learning-tutorial)
 * [Kaggle Learning Couses: ML, Data Visualization, Computer Vision, NLP](https://www.kaggle.com/learn)
 <a name="interview"/>
 
