@@ -31,6 +31,9 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [DL vs ML](https://www.zendesk.com/blog/machine-learning-and-deep-learning/)
 * [Data Mining vs ML](https://www.educba.com/data-mining-vs-machine-learning/)
 * [14 Different Types of Learning in Machine Learning](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
+* [Bias in Machine Learning](https://www.foreseemed.com/blog/bias-in-machine-learning)
+* [Overfitting and Underfitting](https://towardsdatascience.com/what-are-overfitting-and-underfitting-in-machine-learning-a96b30864690)
+* [Data Imbalance](https://imbalanced-learn.org/stable/introduction.html#)
 
 <a name="interview"/>
 
@@ -38,7 +41,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 * [Foundamental Questions](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
 * [Foundamentals of ML and questions about you correlated to ML](https://www.globalguideline.com/interview_questions/pdf/Machine-Learning-Engineer-Interview-Questions-and-Answers-2194.pdf)
-* [General ML Engineer roles question - Glassdor](https://www.glassdoor.co.uk/Interview/machine-learning-engineer-interview-questions-SRCH_KO0,25.htm?countryRedirect=true)
+* [General ML Engineer roles questions - Glassdor](https://www.glassdoor.co.uk/Interview/machine-learning-engineer-interview-questions-SRCH_KO0,25.htm?countryRedirect=true)
 
 <a name="blogs"/>
 
