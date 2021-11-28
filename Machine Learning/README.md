@@ -27,6 +27,8 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [ML Engineer - Step by step guide for beginners](https://www.simplilearn.com/tutorials/machine-learning-tutorial)
 * [Kaggle Learning Couses: ML, Data Visualization, Computer Vision, NLP](https://www.kaggle.com/learn)
 * [Stanford CS229: Machine Learning](https://cs229.stanford.edu/syllabus.html)
+* [Fast.ai](https://course.fast.ai/)
+
 
 <a name="generalML" />
 
