@@ -73,7 +73,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Artificial Neural Network](https://www.ibm.com/cloud/learn/neural-networks)
 
 
-
+---
 
 <a name="interview"/>
 
@@ -105,6 +105,7 @@ This repository presents a list of `resources` aimed at those who want to start 
   * [Chip Huyen - Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)
   * [Cracking the Machine Learning Interview - English Version](https://www.amazon.it/Cracking-Machine-Learning-Interview-English-ebook/dp/B07K4Y6T3J/ref=sr_1_1?__mk_it_IT=)
 
+---
 
 <a name="host_datasets"/>
 
