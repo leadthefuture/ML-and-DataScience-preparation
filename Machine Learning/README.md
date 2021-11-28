@@ -8,7 +8,9 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Learning](#Learning)
 * [General Machine Learning](#generalML)
 * [Supervised Learning](#supervised)
-    * [Classification and Regression](#classification_regression)
+    * [Algorithms for both Classification and Regression](#classification_regression) 
+    * [Regression](#regression)
+    * [Classification](#classification)
 * [Interview Questions](#interview)
 * [Blogs to follow](#blogs)
 * [Suggested books](#books)
@@ -43,18 +45,32 @@ This repository presents a list of `resources` aimed at those who want to start 
 <a name="supervised" />
 
 ### Supervised Learning
+* [Empirical Risk Minimization paradigm](https://en.wikipedia.org/wiki/Empirical_risk_minimization)
+* [Regression Versus Classification](https://medium.com/quick-code/regression-versus-classification-machine-learning-whats-the-difference-345c56dd15f7)
+* [Evaluating a Machine Learning Model](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/)
 
 <a name="classification_regression" />
 
-#### Classification and Regression
-* [Regression Versus Classification](https://medium.com/quick-code/regression-versus-classification-machine-learning-whats-the-difference-345c56dd15f7)
-* [Evaluating a Machine Learning Model](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/)
+#### Algorithms for both Classification and Regression
 * [Decision Trees and Random Forests](https://medium.com/@francesco.disalvo/decision-tree-and-random-forest-pt-1-729b74db1756)
-* [Naive Bayes Classifier](http://stanford.edu/~jurafsky/slp3/slides/7_NB.pdf)
 * [Introduction to Support Vector Machines (SVM)](https://monkeylearn.com/blog/introduction-to-support-vector-machines-svm/)
+* [K Nearest Neighbors](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+
+
+<a name="regression" />
+
+#### Regression
 * [Linear Regression](https://statistics.laerd.com/spss-tutorials/linear-regression-using-spss-statistics.php)
 * [Ridge and Lasso Regression](https://favtutor.com/blogs/ridge-and-lasso-regression)
+* [Multivariate Regression Analysis]()
+
+
+<a name="classification" />
+
+#### Classification
+* [Naive Bayes Classifier](http://stanford.edu/~jurafsky/slp3/slides/7_NB.pdf)
 * [Logistic Regression](https://christophm.github.io/interpretable-ml-book/logistic.html)
+* [Artificial Neural Network](https://www.ibm.com/cloud/learn/neural-networks)
 
 
 
