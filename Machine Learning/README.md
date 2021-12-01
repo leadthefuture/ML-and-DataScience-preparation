@@ -11,6 +11,8 @@ This repository presents a list of `resources` aimed at those who want to start 
     * [Algorithms for both Classification and Regression](#classification_regression) 
     * [Regression](#regression)
     * [Classification](#classification)
+* [Unsupervised Learning](#unsupervised)
+   * [Dimensionality Reduction](#dimensionalityred)  
 * [Interview Questions](#interview)
 * [Blogs to follow](#blogs)
 * [Suggested books](#books)
@@ -72,6 +74,19 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Logistic Regression](https://christophm.github.io/interpretable-ml-book/logistic.html)
 * [Artificial Neural Network](https://www.ibm.com/cloud/learn/neural-networks)
 
+<a name="unsupervised" />
+
+### Unsupervised Learning
+* [What is unsupervised learning?](https://www.ibm.com/cloud/learn/unsupervised-learning)
+
+
+<a name="dimensionalityred" />
+
+#### Dimensionality Reduction
+* [Curse of Dimensionality](https://medium.com/geekculture/curse-of-dimensionality-e97ba916cb8f)
+* [Principal Component Analysis (PCA)](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
+* [Singular Value Decomposition (SVD)](https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/book-chapter-4.pdf)
+* [Linear Discriminant Analysis (LDA)](https://www.geeksforgeeks.org/ml-linear-discriminant-analysis/)
 
 ---
 
