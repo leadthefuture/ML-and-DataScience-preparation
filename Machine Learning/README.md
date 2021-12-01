@@ -115,6 +115,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Suggested Books 
 * Theory
+   * [DeepLearning book](https://www.deeplearningbook.org/)
    * [An Introduction to Statistical Learning V2](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf)
    * [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
    * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
