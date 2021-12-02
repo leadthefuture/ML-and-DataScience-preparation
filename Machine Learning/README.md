@@ -6,7 +6,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Table of contents
 * [Learning](#Learning)
-* [General Machine Learning](#generalML)
+* [General Machine Learning](#generalML) 
 * [Supervised Learning](#supervised)
     * [Algorithms for both Classification and Regression](#classification_regression) 
     * [Regression](#regression)
@@ -45,6 +45,10 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Bias Variance trade-off](https://machinelearningcompass.com/model_optimization/bias_and_variance/)
 * [Data Imbalance](https://imbalanced-learn.org/stable/introduction.html#)
 * [Ensemble Learning: Bagging, Boosting & Stacking](https://www.kaggle.com/satishgunjal/ensemble-learning-bagging-boosting-stacking)
+* [Feature Selection](https://en.wikipedia.org/wiki/Feature_selection)
+   * [Forward selection and Backward elimination](https://quantifyinghealth.com/stepwise-selection/)
+   * [Recursive Feature Elimination (RFE)](https://machinelearningmastery.com/rfe-feature-selection-in-python/)
+   * [Feature Importance](https://medium.com/swlh/feature-importance-hows-and-why-s-3678ede1e58f)
 
 
 <a name="supervised" />
@@ -144,6 +148,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 * [Data World](https://data.world/datasets/open-data)
 * [European Union Open Data Portal](https://data.europa.eu/data/datasets?locale=en)
+* [DataHub](https://datahub.io)
 
 
 <a name="datasets"/>
@@ -152,4 +157,5 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 | Name | Task | Host | Link | 
 | ---- | ------- | ---- | --- |
-| Heart Failure Prediction Dataset | `classification` | `Kaggle` | [🔗](https://www.kaggle.com) |
+| Heart Failure Prediction Dataset | `classification` | `Kaggle` | [🔗](https://www.kaggle.com/fedesoriano/heart-failure-prediction) |
+| New York City Airbnb Open Data | `regression` | `Kaggle` | [🔗](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) |
