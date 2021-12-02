@@ -12,7 +12,8 @@ This repository presents a list of `resources` aimed at those who want to start 
     * [Regression](#regression)
     * [Classification](#classification)
 * [Unsupervised Learning](#unsupervised)
-   * [Dimensionality Reduction](#dimensionalityred)  
+   * [Dimensionality Reduction](#dimensionalityred)
+   * [Clustering](#clustering)  
 * [Interview Questions](#interview)
 * [Blogs to follow](#blogs)
 * [Suggested books](#books)
@@ -90,6 +91,16 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Singular Value Decomposition (SVD)](https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/book-chapter-4.pdf)
 * [Linear Discriminant Analysis (LDA)](https://www.geeksforgeeks.org/ml-linear-discriminant-analysis/)
 
+
+<a name="culstering" />
+
+#### Clustering
+* [What is clustering](https://en.wikipedia.org/wiki/Cluster_analysis)
+* [Hierchical clustering : Agglomerative and Divisive](https://towardsdatascience.com/hierarchical-clustering-agglomerative-and-divisive-explained-342e6b20d710)
+* [Partitional clustering & K-Means algorithm](http://cs-people.bu.edu/evimaria/Italy-2015/partitional-clustering.pdf)
+* [K-Means vs Mini Batch K-Means](https://upcommons.upc.edu/bitstream/handle/2117/23414/R13-8.pdf)
+* [DBSCAN](https://www.kdnuggets.com/2020/04/dbscan-clustering-algorithm-machine-learning.html)
+* [Spectral Clustering](https://www.analyticsvidhya.com/blog/2021/05/what-why-and-how-of-spectral-clustering/)
 ---
 
 <a name="interview"/>
@@ -99,17 +110,6 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Foundamental Questions](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
 * [Foundamentals of ML and questions about you correlated to ML](https://www.globalguideline.com/interview_questions/pdf/Machine-Learning-Engineer-Interview-Questions-and-Answers-2194.pdf)
 * [General ML Engineer roles questions - Glassdor](https://www.glassdoor.co.uk/Interview/machine-learning-engineer-interview-questions-SRCH_KO0,25.htm?countryRedirect=true)
-
-<a name="blogs"/>
-
-### Blogs to follow
-* [Towards Data Science](https://towardsdatascience.com)
-* [Machine Learning Mastery](https://machinelearningmastery.com)
-* [DeepMind](https://deepmind.com/blog)
-* [Cassie Kozykrov](https://kozyrkov.medium.com)
-* [Eugene Yan](https://eugeneyan.com)
-* [Jeremy Jordan](https://www.jeremyjordan.me)
-
 
 <a name="books"/>
 
@@ -122,6 +122,18 @@ This repository presents a list of `resources` aimed at those who want to start 
 * Interview Preparation
   * [Chip Huyen - Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)
   * [Cracking the Machine Learning Interview - English Version](https://www.amazon.it/Cracking-Machine-Learning-Interview-English-ebook/dp/B07K4Y6T3J/ref=sr_1_1?__mk_it_IT=)
+
+
+<a name="blogs"/>
+
+### Blogs to follow
+* [Towards Data Science](https://towardsdatascience.com)
+* [Machine Learning Mastery](https://machinelearningmastery.com)
+* [DeepMind](https://deepmind.com/blog)
+* [Cassie Kozykrov](https://kozyrkov.medium.com)
+* [Eugene Yan](https://eugeneyan.com)
+* [Jeremy Jordan](https://www.jeremyjordan.me)
+
 
 ---
 
