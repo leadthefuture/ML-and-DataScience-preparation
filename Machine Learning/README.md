@@ -155,7 +155,11 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Datasets
 
-| Name | Task | Host | Link | 
+| **Name** | **Task** | **Host** | **Link** | 
 | ---- | ------- | ---- | --- |
 | Heart Failure Prediction Dataset | `classification` | `Kaggle` | [🔗](https://www.kaggle.com/fedesoriano/heart-failure-prediction) |
 | New York City Airbnb Open Data | `regression` | `Kaggle` | [🔗](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) |
+| Credit Card Fraud Detection | `classification` | `Kaggle` | [🔗](https://www.kaggle.com/mlg-ulb/creditcardfraud) |
+| Wine Quality | `regression` <br /> `classification` | `UCI` | [🔗](http://archive.ics.uci.edu/ml/datasets/Wine+Quality) |
+| Forest Fires | `regression`  | `UCI` | [🔗](http://archive.ics.uci.edu/ml/datasets/Forest+Fires) |
+
