@@ -1,5 +1,6 @@
 import numpy as np
-from collections import defaultdict
+from collections import defaultdict, Counter
+
 
 class KNeighborsClassifier:
     '''Implementation from scratch of the KNN algorithm
@@ -10,11 +11,12 @@ class KNeighborsClassifier:
             - Chebyshev
     '''
 
-    def __init__(self, n_neighbors=5, metric='euclidean'):
+    def __init__(self, n_neighbors=5, metric='euclidean',regression=False):
         self.n_neighbors = n_neighbors
         self.metric = self.set_metric(metric)
+        self.regression = regression
 
-    def fit_predict(self, X, y, X_infer, regression=False):
+    def fit_predict(self, X, y, X_infer):
         '''Compute the distances for each test point, select the K
         closest points in the training set.
         Then, predict the current observation based on the given problem.
@@ -23,7 +25,9 @@ class KNeighborsClassifier:
         otherwise, take the average. 
         '''
 
-        distances = defaultdict(list) # save test_idx : [(target,distance),...]
+        self.n_neighbors = min(self.n_neighbors, len(X))
+
+        distances = defaultdict(list) # save { test_idx : [(target,distance),...], ...}
 
         for x_test in X_infer:
             # iterate on the train data
@@ -31,8 +35,23 @@ class KNeighborsClassifier:
                 distance = self.compute_distance(x_test,x_train)
                 distances[x_test].append((y_train,distance))
 
-        # select the K nearest neighbors 
+        # select the K nearest neighbors and predict the value
+        predictions = []
+        for x_test, list_distances in distances.items():
+            # sort and take the K nearest points
+            sorted_k = sorted(list_distances, key = lambda x : x[1])[:self.n_neighbors]
+            # get only the target
+            target_k = [ target for target,_ in sorted_k]
 
+            # take the average
+            if self.regression:
+                y.append(np.mean(target_k))
+            # take the majority class
+            else:
+                y.append(Counter(target_k).keys()[0])
+
+        # return the predictions
+        return predictions
 
 
     def set_metric(self,metric):
