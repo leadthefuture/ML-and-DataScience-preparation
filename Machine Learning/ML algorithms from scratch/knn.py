@@ -2,7 +2,7 @@ import numpy as np
 from collections import defaultdict, Counter
 
 
-class KNeighborsClassifier:
+class KNN:
     '''Implementation from scratch of the KNN algorithm
 
         The following metrics will be implemented : 
@@ -29,30 +29,31 @@ class KNeighborsClassifier:
 
         distances = defaultdict(list) # save { test_idx : [(target,distance),...], ...}
 
-        for x_test in X_infer:
+        for idx_test, x_test in enumerate(X_infer):
             # iterate on the train data
-            for x_train,y_train in zip(X,y):
+            for idx_train, x_train in enumerate(X):
                 distance = self.compute_distance(x_test,x_train)
-                distances[x_test].append((y_train,distance))
+                distances[idx_test].append((idx_train,distance))
 
         # select the K nearest neighbors and predict the value
         predictions = []
-        for x_test, list_distances in distances.items():
+        for idx_test, list_distances in distances.items():
+
             # sort and take the K nearest points
             sorted_k = sorted(list_distances, key = lambda x : x[1])[:self.n_neighbors]
+            
             # get only the target
-            target_k = [ target for target,_ in sorted_k]
+            target_k = [ y[idx] for idx,_ in sorted_k]
 
             # take the average
             if self.regression:
-                y.append(np.mean(target_k))
+                predictions.append(np.mean(target_k))
             # take the majority class
             else:
-                y.append(Counter(target_k).keys()[0])
+                predictions.append(list(Counter(target_k).keys())[0])
 
         # return the predictions
         return predictions
-
 
     def set_metric(self,metric):
         '''Set the metric used for calculating the distances
@@ -85,7 +86,7 @@ class KNeighborsClassifier:
         '''
         v1, v2 = np.array(v1), np.array(v2) # convert to np arrays
 
-        if not v1 or not v2:
+        if len(v1) == 0 or len(v2) == 0:
             raise ValueError('The Manhattan distance cannot be computed from None')
         if len(v1) != len(v2):
             raise ValueError('Cannot compare arrays with different lengths ({},{})'.format(len(v1),len(v2)))
@@ -100,7 +101,7 @@ class KNeighborsClassifier:
         '''
         v1, v2 = np.array(v1), np.array(v2) # convert to np arrays
 
-        if v1 == None or v2 == None:
+        if len(v1) == 0 or len(v2) == 0:
             raise ValueError('The euclidean distance cannot be computed from None')
         if len(v1) != len(v2):
             raise ValueError('Cannot compare arrays with different lengths ({},{})'.format(len(v1),len(v2)))
@@ -115,15 +116,48 @@ class KNeighborsClassifier:
         '''
         v1, v2 = np.array(v1), np.array(v2) # convert to np arrays
 
-        if v1 == None or v2 == None:
+        if len(v1) == 0 or len(v2) == 0:
             raise ValueError('The Chebyshev distance cannot be computed from None')
         if len(v1) != len(v2):
             raise ValueError('Cannot compare arrays with different lengths ({},{})'.format(len(v1),len(v2)))
         if np.isnan(v1).any() or np.isnan(v2).any():
             raise ValueError('Cannot compare arrays with NaN values ({},{})'.format(np.isnan(v1).any(),np.isnan(v2).any()))
-        
         return np.max(np.abs(v1-v2))
         
 
 if __name__ == '__main__':
-    knn = KNeighborsClassifier(n_neighbors=5, metric='euclidean')
+    
+    ''' Test on Iris Data : http://archive.ics.uci.edu/ml/datasets/Iris '''
+
+    import pandas as pd
+    from sklearn.metrics import accuracy_score
+    from sklearn.preprocessing import LabelEncoder
+    from sklearn.model_selection import train_test_split
+    from sklearn.neighbors import KNeighborsClassifier
+
+    # add your local directory
+    df = pd.read_csv('datasets/iris.csv').iloc[:,1:] # skip Id
+
+    y = df.Species
+    X = df.drop(columns=['Species'])
+
+    # encode target 
+    encoder = LabelEncoder()
+    y_encoded = encoder.fit_transform(y)
+
+    # split into train and test
+    X_train, X_test, y_train, y_test = train_test_split(X.to_numpy(), y_encoded, test_size=0.2, random_state=42)
+
+    knn = KNN(n_neighbors=5, metric='euclidean')
+    y_pred = knn.fit_predict(X_train,y_train,X_test)
+    print(f'Accuracy (M) = {accuracy_score(y_test,y_pred):.2f}')
+
+    scikit_knn = KNeighborsClassifier(n_neighbors=5, algorithm='brute', p=2)
+    scikit_knn.fit(X_train,y_train)
+    scikit_pred = scikit_knn.predict(X_test)
+    print(f'Accuracy (S) = {accuracy_score(y_test,scikit_pred):.2f}')
+
+    '''
+    Accuracy (M) = 1.00 # my implementation
+    Accuracy (S) = 1.00 # ScikitLearn's implementation
+    '''
