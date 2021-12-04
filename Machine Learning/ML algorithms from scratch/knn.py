@@ -65,7 +65,7 @@ class KNN:
             return the given metric if it has been implemented, otherwise
             raise an Error
         '''    
-        if metric in ['euclidean']:
+        if metric in ['euclidean','manhattan','chebyshev']:
             return metric
         else:
             raise ValueError('{} has not been implemented - refer to [euclidean,manhattan,chebyshev]'.format(metric))
