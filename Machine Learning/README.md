@@ -38,7 +38,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 <a name="mlfromscratch"/>
 
 ### Machine Learning Algorithms from scratch
-* [K Nearest Neighbors](ML%20algorithms%20from%20scratch/knn.py)
+* K Nearest Neighbors : [code]((ML%20algorithms%20from%20scratch/knn.py)), [article](https://medium.com/@francesco.disalvo/k-nearest-neighbors-explanation-and-implementation-438f0ca5dbf4)
 
 ---
 
