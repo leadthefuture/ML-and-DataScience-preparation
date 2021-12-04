@@ -6,6 +6,7 @@ This repository presents a list of `resources` aimed at those who want to start 
 
 ### Table of contents
 * [Learning](#Learning)
+* [Machine Learning Algorithms from scratch](#mlfromscratch) 
 * [General Machine Learning](#generalML) 
 * [Supervised Learning](#supervised)
     * [Algorithms for both Classification and Regression](#classification_regression) 
@@ -31,6 +32,15 @@ This repository presents a list of `resources` aimed at those who want to start 
 * [Kaggle Learning Couses: ML, Data Visualization, Computer Vision, NLP](https://www.kaggle.com/learn)
 * [Stanford CS229: Machine Learning](https://cs229.stanford.edu/syllabus.html)
 * [Fast.ai](https://course.fast.ai/)
+
+---
+
+<a name="mlfromscratch"/>
+
+### Machine Learning Algorithms from scratch
+* [K Nearest Neighbors](ML%20algorithms%20from%20scratch/knn.py)
+
+---
 
 
 <a name="generalML" />
