@@ -4,7 +4,7 @@ This repository has the goal to create a learning and preparation roadMap for Ma
 
 ## Project Structure
 
-The repository is splittend into two macrofolders: [Machine Learning](Machine%20Learning/README.md) and [Data Science](Data_Science/README.md).
+The repository is splitted into different macrofolders. At the moment you can find [Machine Learning](Machine%20Learning/README.md), [Natural Language Processing](Natural%Language Processing%/README.md) and [Data Science](Data_Science/README.md).
 Each section will have its own README file, containing a list of topic sorted from beginner to senior levels, with related e-learning resources or articles associated. 
 Also in the README.md file, you will be able to find a ```Suggested Books``` section, containing a list of books useful for theory preparation, practice or interview preparation.
 

@@ -1,6 +1,6 @@
 # Machine Learning
 
-This repository presents a list of `resources` aimed at those who want to start or continue their `Machine Learning` journey! 
+This section presents a list of `resources` aimed at those who want to start or continue their `Machine Learning` journey! 
 
 ---
 
