@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-This section presents a list of `resources` aimed at those who want to start or continue their `Natural Language Processing` journey! 
+This section presents a list of `resources` aimed at those who want to start or continue their `Natural Language Processing` journey! The topic overview takes insipration by the Deep Natural Language Processing course yield at [Politecnico di Torino](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01VIXSM&p_a_acc=2022&p_header=S&p_lang=&multi=N) by Professor Luca Cagliero and Dr. Moreno La Quatra.
 
 ---
 
