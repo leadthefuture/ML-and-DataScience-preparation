@@ -9,6 +9,7 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [Intro of Natural Language Processing](#intronlp) 
 * [Books](#books)
 * [Topic Modeling](#topic_modeling)
+* [Word Embeddings](#word_embeddings)
 
 ---
 
@@ -40,3 +41,12 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [Randomized SVD](https://gregorygundersen.com/blog/2019/01/17/randomized-svd/)
 * [Author Topic Modeling](https://mimno.infosci.cornell.edu/info6150/readings/398.pdf) (paper)
 * [Author Topic Modeling](https://nbviewer.org/github/rare-technologies/gensim/blob/develop/docs/notebooks/atmodel_tutorial.ipynb) (notebook)
+
+
+<a name="word_embeddings" />
+
+### Word Embeddings
+* [Word Embeddings](https://machinelearningmastery.com/what-are-word-embeddings/)
+* [Word2Vec](https://jalammar.github.io/illustrated-word2vec/)
+* [FastText](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
+* [GloVe](https://nlp.stanford.edu/projects/glove/)
