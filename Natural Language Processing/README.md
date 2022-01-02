@@ -10,6 +10,7 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [Books](#books)
 * [Topic Modeling](#topic_modeling)
 * [Word Embeddings](#word_embeddings)
+* [Contextualized Embeddings](#contextualized_embeddings)
 
 ---
 
@@ -50,3 +51,11 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [Word2Vec](https://jalammar.github.io/illustrated-word2vec/)
 * [FastText](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
 * [GloVe](https://nlp.stanford.edu/projects/glove/)
+
+<a name="contextualized_embeddings" />
+
+### Contextualized Embeddings
+* [Word Embeddings vs Contextualized Word Embeddings](https://stackoverflow.com/questions/62272056/what-are-the-differences-between-contextual-embedding-and-word-embedding)
+* [TagLM](https://shubhamg.in/nlp/language_model/review/2020/04/23/tag-lm.html)
+* [ELMo](https://www.youtube.com/watch?v=YZerhaFMPTw)
+* [The Illustrated BERT, ELMo, and co.](https://jalammar.github.io/illustrated-bert/)
