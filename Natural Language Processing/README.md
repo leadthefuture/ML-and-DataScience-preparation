@@ -11,6 +11,7 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [Topic Modeling](#topic_modeling)
 * [Word Embeddings](#word_embeddings)
 * [Contextualized Embeddings](#contextualized_embeddings)
+* [Blogs](#blogs)
 
 ---
 
@@ -59,3 +60,10 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [TagLM](https://shubhamg.in/nlp/language_model/review/2020/04/23/tag-lm.html)
 * [ELMo](https://www.youtube.com/watch?v=YZerhaFMPTw)
 * [The Illustrated BERT, ELMo, and co.](https://jalammar.github.io/illustrated-bert/)
+
+---
+
+<a name="blogs" />
+
+### Blogs
+* [Jay Alammar](https://jalammar.github.io)
