@@ -60,6 +60,8 @@ This section presents a list of `resources` aimed at those who want to start or 
 * [TagLM](https://shubhamg.in/nlp/language_model/review/2020/04/23/tag-lm.html)
 * [ELMo](https://www.youtube.com/watch?v=YZerhaFMPTw)
 * [The Illustrated BERT, ELMo, and co.](https://jalammar.github.io/illustrated-bert/)
+* [Self Attention](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+* [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
 ---
 
